@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hamburgueria Delícia</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Hamburgueria Delícia</h1>
+        <div class="logo">
+            <h1>Hamburgueria Delícia</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#sobre">Nossa História</a></li>
-                <li><a href="#lanches">Nossos Lanches</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="sobre" class="section">
-        <h2>Nossa História</h2>
+    <section id="historia" class="section">
+        <h2>História da Hamburgueria</h2>
         <p>
-            A Hamburgueria Delícia nasceu do sonho de oferecer hambúrgueres artesanais feitos com ingredientes de alta qualidade. Desde nossa fundação, buscamos proporcionar uma experiência única aos nossos clientes, com sabores irresistíveis e um ambiente acolhedor. Venha conhecer nossa história e se apaixonar pelos nossos lanches!
+            A Hamburgueria Delícia foi fundada em 2010 com o objetivo de oferecer aos nossos clientes os melhores hambúrgueres artesanais da cidade. 
+            Com ingredientes frescos e selecionados, nossos hambúrgueres são preparados com amor e dedicação para proporcionar uma experiência única a cada mordida. 
+            Ao longo dos anos, a nossa paixão por hambúrgueres cresceu, e hoje somos uma das mais queridas hamburguerias da região!
         </p>
+        <img src="https://via.placeholder.com/800x400?text=Hamburguer+Delicioso" alt="Hamburguer Delícia" class="imagem-historia">
     </section>
 
-    <section id="lanches" class="section">
-        <h2>Nossos Lanches</h2>
-        <div class="lanches-container">
-            <div class="lanche">
-                <img src="ChatGPT Image 8 de jul. de 2025, 15_04_30.png" alt="Hambúrguer Clássico" />
-                <h3>Hambúrguer Clássico</h3>
-                <p>Carne, queijo, alface, tomate e molho especial. R$ 20,00</p>
+    <section id="cardapio" class="section">
+        <h2>Cardápio</h2>
+        <div class="cardapio-categorias">
+            <div class="categoria">
+                <h3>Refrigerantes</h3>
+                <ul>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Coca-Cola" alt="Coca-Cola">
+                        Coca-Cola - R$ 5,00
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Guaraná+Antarctica" alt="Guaraná Antarctica">
+                        Guaraná Antarctica - R$ 5,00
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Fanta+Laranja" alt="Fanta Laranja">
+                        Fanta Laranja - R$ 5,00
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Água+Mineral" alt="Água Mineral">
+                        Água Mineral - R$ 3,00
+                    </li>
+                </ul>
             </div>
-            <div class="lanche">
-                <img src="pixlr-image-generator-68890b5d659f415b597cbc47.png" alt="Cheese Bacon" />
-                <h3>Cheese Bacon</h3>
-                <p>Carne, queijo, bacon, cebola caramelizada e molho barbecue. R$ 25,00</p>
-            </div>
-            <div class="lanche">
-                <img src="pixlr-image-generator-68890d2c1356ea81a901fd57.png" alt="Vegan Burger" />
-                <h3>Vegan Burger</h3>
-                <p>Hambúrguer de grão-de-bico, alface, tomate, pepino e molho de iogurte. R$ 18,00</p>
+            <div class="categoria">
+                <h3>Sucos</h3>
+                <ul>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Suco+Laranja" alt="Suco de Laranja">
+                        Suco de Laranja Natural - R$ 6,00
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Suco+Uva" alt="Suco de Uva">
+                        Suco de Uva - R$ 6,00
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/150x150?text=Suco+Maçã" alt="Suco de Maçã">
+                        Suco de Maçã - R$ 6,00
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="contato" class="section">
         <h2>Contato</h2>
-        <p>Telefone: (11) 99999-9999</p>
-        <p>Email: contato@hamburgueriadelicia.com</p>
-        <p>Endereço: Rua das Delícias, 123 - Centro</p>
+        <p>
+            Endereço: Rua das Delícias, 123, Bairro Saboroso, Cidade dos Hambúrgueres.<br>
+            Telefone: (11) 98765-4321<br>
+            E-mail: contato@hamburgueriadelicia.com.br
+        </p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 Hamburgueria Delícia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
