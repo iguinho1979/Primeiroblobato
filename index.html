@@ -3,106 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hamburgueria Delícia</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Meu Site Simples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Hamburgueria Delícia</h1>
-        </div>
+        <h1>Bem-vindo ao Meu Site</h1>
         <nav>
             <ul>
-                <li><a href="#historia">História</a></li>
-                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="historia" class="section">
-        <h2>História da Hamburgueria</h2>
-        <p>
-            A Hamburgueria Delícia foi fundada em 2010 com o objetivo de oferecer aos nossos clientes os melhores hambúrgueres artesanais da cidade. 
-            Com ingredientes frescos e selecionados, nossos hambúrgueres são preparados com amor e dedicação para proporcionar uma experiência única a cada mordida. 
-            Ao longo dos anos, a nossa paixão por hambúrgueres cresceu, e hoje somos uma das mais queridas hamburguerias da região!
-        </p>
-        <img src="https://via.placeholder.com/800x400?text=Hamburguer+Delicioso" alt="Hamburguer Delícia" class="imagem-historia">
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Este é um site simples feito para demonstrar como usar HTML e CSS juntos.</p>
     </section>
 
-    <section id="cardapio" class="section">
-        <h2>Cardápio</h2>
-        <div class="cardapio-categorias">
-            <div class="categoria">
-                <h3>Hambúrgueres</h3>
-                <ul>
-                    <li>
-                        <img src="X cheddar.png" alt="Hamburguer X Cheddar">
-                        X Cheddar - R$ 20,00
-                    </li>
-                    <li>
-                        <img src="BQQ.png" alt="Hamburguer BBQ">
-                        Hambúrguer BBQ - R$ 22,00
-                    </li>
-                    <li>
-                        <img src="Vejetariano.png" alt="Hamburguer Vegetariano">
-                        Hambúrguer Vegetariano - R$ 18,00
-                    </li>
-                </ul>
-            </div>
-            <div class="categoria">
-                <h3>Refrigerantes</h3>
-                <ul>
-                    <li>
-                        <img src="66db573a62edc14e790f8550.webp" alt="Coca-Cola">
-                        Coca-Cola - R$ 5,00
-                    </li>
-                    <li>
-                        <img src="refrigerante-guarana-antarctica-lata-350ml_25905.webp" alt="Guaraná Antarctica">
-                        Guaraná Antarctica - R$ 5,00
-                    </li>
-                    <li>
-                        <img src="1993-refrigerante-fanta-laranja-lata-350ml.jpg" alt="Fanta Laranja">
-                        Fanta Laranja - R$ 5,00
-                    </li>
-                    <li>
-                        <img src="2893-agua-mineral-crystal-sem-gas-500ml.jpg" alt="Água Mineral">
-                        Água Mineral - R$ 3,00
-                    </li>
-                </ul>
-            </div>
-            <div class="categoria">
-                <h3>Sucos</h3>
-                <ul>
-                    <li>
-                        <img src="95587.png" alt="Suco de Laranja">
-                        Suco de Laranja Natural - R$ 6,00
-                    </li>
-                    <li>
-                        <img src="suco-de-uva-concentrado.jpeg" alt="Suco de Uva">
-                        Suco de Uva - R$ 6,00
-                    </li>
-                    <li>
-                        <img src="83193-suco-de-maca-natural-one-900ml.jpg" alt="Suco de Maçã">
-                        Suco de Maçã - R$ 6,00
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Design Gráfico</li>
+            <li>Consultoria Digital</li>
+        </ul>
     </section>
 
-    <section id="contato" class="section">
+    <section id="contato">
         <h2>Contato</h2>
-        <p>
-            Endereço: Rua das Delícias, 123, Bairro Saboroso, Cidade dos Hambúrgueres.<br>
-            Telefone: (11) 98765-4321<br>
-            E-mail: contato@hamburgueriadelicia.com.br
-        </p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 Hamburgueria Delícia. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Meu Site Simples. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
