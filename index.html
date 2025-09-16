@@ -3,53 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Simples</title>
+    <title>Futebol - O Esporte Rei</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Cabeçalho -->
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
+        <div class="logo">
+            <h1>Futebol - O Esporte Rei</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#times">Times Famosos</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Este é um site feito pra ensinar sobre midia digital.</p>
-    </section>
+    <!-- Seção Principal -->
+    <main>
+        <section id="historia">
+            <h2>História do Futebol</h2>
+            <p>O futebol moderno surgiu na Inglaterra no final do século XIX, mas sua origem remonta a séculos anteriores com jogos similares praticados em diversas culturas ao redor do mundo. Hoje, o futebol é o esporte mais popular do planeta.</p>
+        </section>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Desenvolvimento Web</li>
-            <li>Design Gráfico</li>
-            <li>Consultoria Digital</li>
-        </ul>
-    </section>
+        <section id="times">
+            <h2>Times Famosos</h2>
+            <ul>
+                <li>Real Madrid</li>
+                <li>Barcelona</li>
+                <li>Bayern de Munique</li>
+                <li>Manchester United</li>
+                <li>Paris Saint-Germain</li>
+            </ul>
+        </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+        <section id="curiosidades">
+            <h2>Curiosidades sobre Futebol</h2>
+            <ul>
+                <li>O futebol foi jogado pela primeira vez no Brasil em 1894.</li>
+                <li>O maior estádio de futebol do mundo é o Rungrado 1º de Maio, na Coreia do Norte.</li>
+                <li>O gol mais rápido da história foi feito em 2,8 segundos.</li>
+            </ul>
+        </section>
+    </main>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 Meu Site Simples. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Futebol - Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
